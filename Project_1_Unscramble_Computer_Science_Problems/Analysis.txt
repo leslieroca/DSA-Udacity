@@ -1,1 +1,56 @@
-Step 3 - Calculate Big OOnce you have completed your solution for each problem, perform a run time analysis (Worst Case Big-O Notation)of your solution. Document this for each problem and include this in your submission.Task0 run time analysis:The run time complexity of getting the first record of text and getting the last record of calls is O(1).We can get those elements by accessing them directly with the indexes what makes it constant time.Task1 run time analysis:The time complexity of getting how many different telephone numbers are there in the records takes O(n + m) where nis the length of texts and m the length of calls.We need to iterate over each element of the record array and then add the elements in position 0 and 1 to the set,siece we are doing only one pass over the elements of the calls list is lineal time.Task2 run time analysis:To know which telephone number spent the longest time on the phone takes lineal time complexity O(n) where n representsthe length of the callsTask3 run time analysis:Part A:Finding all of the area codes and mobile prefixes called by people in Bangalore takes lineal time complexity O(n + m)where n is the length of each call and m is the length of the number called from Bangalore, but the time complexity ofgetting the area codes sorted in a lexicographic order is O(n log n), so the time complexity of solving the task3 Part Ais O(n log n).Part B:Finding the percentage of calls from Bangalore to Bangalore takes lineal time complexity O(n + m) where n is the lengthof the calls and m is the length of the number called from BangaloreTask4 run time analysis:The run time complexity of identifying possible telemarketers number is O(n) and the run time complexity of orderingthe list of number in lexicographic order is O(n log n) because we are sorting and the best time complexity a sortingfunction gives is O(n log n).Because O(n log n) is bigger than O(n) the time complexity of solving the Task4 is O(n log n)
+Step 3 - Calculate Big O
+
+Once you have completed your solution for each problem, perform a run time analysis (Worst Case Big-O Notation)
+of your solution. Document this for each problem and include this in your submission.
+
+
+
+Task0 run time analysis:
+
+The run time complexity of getting the first record of text and getting the last record of calls is O(1).
+We can get those elements by accessing them directly with the indexes what makes it constant time.
+
+
+
+
+Task1 run time analysis:
+
+The time complexity of getting how many different telephone numbers are there in the records takes O(n + m) where n
+is the length of texts and m the length of calls.
+We need to iterate over each element of the record array and then add the elements in position 0 and 1 to the set,
+siece we are doing only one pass over the elements of the calls list is lineal time.
+
+
+
+
+Task2 run time analysis:
+
+To know which telephone number spent the longest time on the phone takes lineal time complexity O(n) where n represents
+the length of the calls
+
+
+
+
+Task3 run time analysis:
+
+Part A:
+
+Finding all of the area codes and mobile prefixes called by people in Bangalore takes lineal time complexity O(n + m)
+where n is the length of each call and m is the length of the number called from Bangalore, but the time complexity of
+getting the area codes sorted in a lexicographic order is O(n log n), so the time complexity of solving the task3 Part A
+is O(n log n).
+
+Part B:
+
+Finding the percentage of calls from Bangalore to Bangalore takes lineal time complexity O(n + m) where n is the length
+of the calls and m is the length of the number called from Bangalore
+
+
+
+
+Task4 run time analysis:
+
+The run time complexity of identifying possible telemarketers number is O(n) and the run time complexity of ordering
+the list of number in lexicographic order is O(n log n) because we are sorting and the best time complexity a sorting
+function gives is O(n log n).
+Because O(n log n) is bigger than O(n) the time complexity of solving the Task4 is O(n log n)
